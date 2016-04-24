@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+
+template<class T>
+struct BInaryTreeNode
+{
+  T _data;
+  BinarytreeNode<T>* _left;
+  BinaryTreeNode<T>* _right;
+  
+  BinaryTreeNode(const T &x)
+      :_data(x)
+      ,_left(NULL)
+      ,_right(NULL)
+  {
+  }
+};
